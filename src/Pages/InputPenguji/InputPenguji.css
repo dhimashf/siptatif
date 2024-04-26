@@ -1,0 +1,93 @@
+.penguji {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-containerPenguji {
+    display: flex;
+    color: #333;
+    
+}
+
+.searchPenguji input[type="search"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.searchPenguji .search-icon {
+    margin-right: 10px;
+    color: #333;
+}
+.Content-EditDataMahasiswa1 {
+    background-color: #dedee1;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+    max-width:800px;
+    margin: 100px auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    overflow-x: auto;
+    margin-left: 400px; /* Tambahkan margin kiri untuk memisahkan dari sidebar */
+    height: px; /* Tambahkan tinggi yang diinginkan */
+}
+.Content-EditDataMahasiswa1 ul {
+    text-align: left; /* Menjadikan teks sejajar ke kanan */
+    background-color: #d2cdec;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.Content-EditDataMahasiswa1 ul li {
+    display: inline; /* Mengatur elemen list menjadi inline */
+    margin-left: 30px; /* Mengatur jarak antar elemen list */
+}
+.Content-EditDataMahasiswa1 ul li a:hover {
+    color: #fff; /* Mengubah warna teks saat dihover */
+    background-color: #6c63a4; /* Mengubah warna latar belakang saat dihover */
+    padding: 10px; /* Memberikan padding tambahan saat dihover */
+    border-radius: 2px; /* Mengubah sudut border saat dihover */
+    text-decoration: none; /* Menghapus garis bawah saat dihover */
+}
+.dosen-penguji {
+    display: flex;
+    width: 40%;
+    margin-left: 400px;
+    margin-top: 20px; /* Adjust as needed */
+    padding-top: 20px; /* Adjust as needed */
+    border-top: 1px solid #ddd; /* Add a border above the section */
+  }
+  
+  .dosen-penguji label {
+    font-weight: bold;
+  }
+  
+  .dosen-penguji .input-text {
+    margin-top: 8px; /* Adjust as needed */
+    font-style: normal;
+    color: #666; /* Change the color as needed */
+  }
+  .dosen-button {
+    margin-top: 20px;
+    margin-bottom: 30PX;
+    padding: 10px 20px;
+    background-color: #345e8b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 700px;
+    width: 100px;
+    height: 40px;    
+  }
+  
+  .dosen-button:hover {
+    background-color: #2770bd;
+  }
+  

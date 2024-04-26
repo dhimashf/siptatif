@@ -1,0 +1,296 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 00px;
+    background-color: #ffffff;
+    width: 100%;
+  }
+  .search-container input[type="search"] {
+    width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    font-size: 16px; /* Sesuaikan ukuran font sesuai kebutuhan */
+    border-radius: 20px;
+}
+  .search {
+    font-size: 24px;
+    margin-right: 200px;
+    color: #000000; /* Warna teks untuk kontainer pencarian */
+  }
+  
+  .search-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333; /* Warna ikon pencarian */
+  }
+  
+  .search input[type="search"] {
+    width: 500px; /* Menyesuaikan lebar input */
+    padding: 10px; /* Menyesuaikan padding */
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search {
+      font-size: 18px;
+    }
+  
+    .search input[type="search"] {
+      width: 200px;
+      font-size: 14px;
+    }
+  }
+  
+.table-container {
+    background-color: #adb7c3;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width:800px;
+    margin: 100px auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    overflow-x: auto;
+    margin-left: 400px; /* Tambahkan margin kiri untuk memisahkan dari sidebar */
+}
+
+@media screen and (max-width: 768px) {
+    .table-container {
+        margin-left: 90px; /* Sesuaikan margin kiri saat ukuran layar lebih kecil */
+        margin-right: 1000px;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #000000;
+    white-space: nowrap; /* Hindari wrapping pada konten sel tabel */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+    white-space: nowrap; /* Hindari wrapping pada konten sel tabel */
+}
+
+table td a {
+    padding: 10px;
+    display: block; /* Atur tautan ke blok agar dapat menyesuaikan lebar */
+    width: 100%; /* Lebar tautan menjadi 100% dari sel */
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-left: 400px;
+  }
+  
+  .footer-info p {
+    margin: 0;
+  }
+  
+  .footer .pagination {
+    display: inline-block;
+    margin-right: 300px;
+  }
+  
+  .footer .pagination a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .footer .pagination {
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 00px;
+    background-color: #ffffff;
+    width: 100%;
+  }
+  .search-container input[type="search"] {
+    width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    font-size: 16px; /* Sesuaikan ukuran font sesuai kebutuhan */
+    border-radius: 20px;
+}
+  .search {
+    font-size: 24px;
+    margin-right: 200px;
+    color: #000000; /* Warna teks untuk kontainer pencarian */
+  }
+  
+  .search-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333; /* Warna ikon pencarian */
+  }
+  
+  .search input[type="search"] {
+    width: 500px; /* Menyesuaikan lebar input */
+    padding: 10px; /* Menyesuaikan padding */
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search {
+      font-size: 18px;
+    }
+  
+    .search input[type="search"] {
+      width: 200px;
+      font-size: 14px;
+    }
+  }
+  
+.Content-EditDataMahasiswa {
+    background-color: #dedee1;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+    max-width:800px;
+    margin: 100px auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    overflow-x: auto;
+    margin-left: 400px; /* Tambahkan margin kiri untuk memisahkan dari sidebar */
+    height: 500px; /* Tambahkan tinggi yang diinginkan */
+}
+
+@media screen and (max-width: 768px) {
+    .Content-container {
+        margin-left: 90px; /* Sesuaikan margin kiri saat ukuran layar lebih kecil */
+        margin-right: 1000px;
+        height: 600px; /* Tambahkan tinggi yang diinginkan */
+    }
+}
+.Content-EditDataMahasiswa ul {
+    text-align: left; /* Menjadikan teks sejajar ke kanan */
+    background-color: #d2cdec;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.Content-EditDataMahasiswa ul li {
+    display: inline; /* Mengatur elemen list menjadi inline */
+    margin-left: 30px; /* Mengatur jarak antar elemen list */
+}
+.Content-EditDataMahasiswa ul li a:hover {
+    color: #fff; /* Mengubah warna teks saat dihover */
+    background-color: #6c63a4; /* Mengubah warna latar belakang saat dihover */
+    padding: 10px; /* Memberikan padding tambahan saat dihover */
+    border-radius: 2px; /* Mengubah sudut border saat dihover */
+    text-decoration: none; /* Menghapus garis bawah saat dihover */
+}
+.container-berkasmahasiswa {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    margin-top: 0px;
+  }
+  
+  .container-berkasmahasiswa h3 {
+    margin-bottom: 10px;
+  }
+  
+  .container-berkasmahasiswa form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-berkasmahasiswa .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .container-berkasmahasiswa label {
+    display:flex;
+    margin-bottom: 10px; /* Menambahkan jarak 5px di bawah setiap label */
+    margin-right: 10px;
+}
+  
+.container-berkasmahasiswa input {
+    padding: 8px;
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Memberikan jarak 10px di bawah setiap input */
+  }
+  
+  .container-berkasmahasiswa button {
+    width: 15%;
+    height: 35px;
+    padding: 8px 15px;
+    background-color: #4c5caf;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  .container-berkasmahasiswa button:hover {
+    background-color: #43adb7;
+  }
+  .form-grup .input-text{
+    display: inline-block;
+}
+.input-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.kembali {
+    margin-top: 20px;
+}
+
+.kembali a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4c5caf;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.kembali a:hover {
+    background-color: #43adb7
+}
+
+.kembali .back-icon {
+    margin-right: 10px;
+}
+
+

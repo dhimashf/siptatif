@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* DataMahasiswa.css */
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    padding: 30px 0px;
+    position: fixed;
+    transition: all 0.3s; /* Efek transisi untuk perubahan lebar sidebar */
+
+  }
+/* Lebar sidebar di layar besar */
+@media screen and (max-width: 768px) {
+    .sidebar {
+      width: 80px; /* Ubah lebar sidebar menjadi lebih kecil */
+      overflow-x: hidden; /* Sembunyikan bagian yang melebihi lebar */
+    }
+  }
+  .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .sidebar ul li a {
+    color: #bdb8d7;
+    display: block;
+  }
+  
+  .sidebar ul li a .fas {
+    width: 25px;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #594f8d;
+  }
+  
+  .sidebar ul li:hover a {
+    color: #fff;
+  }
+  
+  .logout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logout ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .logout ul li {
+    padding: 15px;
+    border-top: 1px solid #bdb8d7;
+  }
+  
+  .logout ul li a {
+    color: #bdb8d7;
+  }
+  
+  .logout ul li:hover a {
+    color: #fff;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4b4276;
+    min-width: 160px;
+    margin-top: 20px;
+  }
+  
+  .dropdown-content li {
+    color: #bdb8d7;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Dropdown Caret */
+  .dropdown .fas.fa-caret-down {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: white;
+  }
+  .header {
+    width: calc(100% - 200px); /* Lebar header dihitung dari lebar layar dikurangi lebar sidebar */
+    margin-left: 200px; /* Margin kiri setara dengan lebar sidebar */
+    transition: all 0.3s; /* Efek transisi untuk perubahan lebar sidebar */
+  }
+  
+  .header .welcome {
+    padding: 30px;
+    background: #332c56;
+    color: white;
+    border-bottom: 1px solid #bdb8d7;
+    font-size: 3vh;
+  }
+  
+  .header .welcome p {
+    font-size: small;
+    margin-top: 10px;
+    font-style: normal;
+  }
+  
+  /* Koordinator-TA */
+  .Koordinator-TA {
+    position: absolute;
+    font-size: 15px;
+    display: block;
+    top: 30px;
+    right: 30px;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+  }
+  /* Lebar header di layar besar */
+@media screen and (max-width: 768px) {
+    .header {
+      width: calc(100% - 80px); /* Sesuaikan lebar header dengan lebar sidebar yang lebih kecil */
+      margin-left: 80px; /* Sesuaikan margin kiri dengan lebar sidebar yang lebih kecil */
+    }
+  
+    .header .welcome {
+      padding: 15px; /* Sesuaikan padding untuk header yang lebih kecil */
+      font-size: 2vh; /* Sesuaikan ukuran font untuk header yang lebih kecil */
+    }
+  }
+  .Koordinator-TA {
+    position: absolute;
+    font-size: 15px;
+    display: block;
+    top: 30px;
+    right: 30px;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    float: left;
+  }
+  /* Lebar Koordinator-TA di layar besar */
+@media screen and (max-width: 768px) {
+    .Koordinator-TA {
+      width: 80px; /* Sesuaikan lebar Koordinator-TA dengan lebar sidebar yang lebih kecil */
+      right: 10px; /* Sesuaikan posisi Koordinator-TA dengan lebar sidebar yang lebih kecil */
+    }
+  }
+  .Koordinator-TA a {
+    color: black;
+    padding-right: 10px;
+  }
+  
+  .Koordinator-TA span {
+    margin-left: 10px;
+  }
+  .Content-Home {
+    background-color: #adb7c3;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 25px;
+    width: 100%;
+    max-width:800px;
+    margin: 100px auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    overflow-x: auto;
+    margin-left: 400px; /* Tambahkan margin kiri untuk memisahkan dari sidebar */
+    height: 500px; /* Tambahkan tinggi yang diinginkan */
+}
+
+@media screen and (max-width: 768px) {
+    .Content-Home {
+        margin-left: 90px; /* Sesuaikan margin kiri saat ukuran layar lebih kecil */
+        margin-right: 1000px;
+        height: 600px; /* Sesuaikan tinggi pada ukuran layar yang lebih kecil jika diperlukan */
+    }
+}
+.Content-Home p {
+    font-size: 20px;
+}

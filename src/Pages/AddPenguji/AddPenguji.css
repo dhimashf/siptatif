@@ -1,0 +1,71 @@
+
+
+.container-berkasmahasiswa {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-grouppembimbing {
+  margin-bottom: 20px;
+}
+
+.form-grouppembimbing label {
+  font-weight: bold;
+}
+
+.input-text {
+  margin-top: 5px;
+}
+
+.form-group1 {
+  margin-bottom: 20px;
+}
+
+.form-group1 label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-group1 input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.kembali {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.kembali a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.kembali a .back-icon {
+  margin-right: 5px;
+}
+.Content-EditDataMahasiswa h1{
+    padding: 10px;
+    text-align: center;
+}

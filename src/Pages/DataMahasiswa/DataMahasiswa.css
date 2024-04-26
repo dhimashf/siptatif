@@ -1,0 +1,126 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 00px;
+    background-color: #ffffff;
+    width: 100%;
+  }
+  .search-container input[type="search"] {
+    width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    font-size: 16px; /* Sesuaikan ukuran font sesuai kebutuhan */
+    border-radius: 20px;
+}
+  .search {
+    font-size: 24px;
+    margin-right: 200px;
+    color: #000000; /* Warna teks untuk kontainer pencarian */
+  }
+  
+  .search-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333; /* Warna ikon pencarian */
+  }
+  
+  .search input[type="search"] {
+    width: 500px; /* Menyesuaikan lebar input */
+    padding: 10px; /* Menyesuaikan padding */
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search {
+      font-size: 18px;
+    }
+  
+    .search input[type="search"] {
+      width: 200px;
+      font-size: 14px;
+    }
+  }
+  
+.table-container {
+    background-color: #adb7c3;
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 100%;
+    max-width:800px;
+    margin: 100px auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    overflow-x: auto;
+    margin-left: 400px; /* Tambahkan margin kiri untuk memisahkan dari sidebar */
+}
+
+@media screen and (max-width: 768px) {
+    .table-container {
+        margin-left: 90px; /* Sesuaikan margin kiri saat ukuran layar lebih kecil */
+        margin-right: 1000px;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #000000;
+    white-space: nowrap; /* Hindari wrapping pada konten sel tabel */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+    white-space: nowrap; /* Hindari wrapping pada konten sel tabel */
+}
+
+table td a {
+    padding: 10px;
+    display: block; /* Atur tautan ke blok agar dapat menyesuaikan lebar */
+    width: 100%; /* Lebar tautan menjadi 100% dari sel */
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-left: 400px;
+  }
+  
+  .footer-info p {
+    margin: 0;
+  }
+  
+  .footer .pagination {
+    display: inline-block;
+    margin-right: 300px;
+  }
+  
+  .footer .pagination a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .footer .pagination {
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  }
